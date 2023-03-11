@@ -1,0 +1,205 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = NewHolovataLab1WebApplication
+build_property.RootNamespace = NewHolovataLab1WebApplication
+build_property.ProjectDir = C:\Work\k26\ІСтТП\lab1\NewHolovataLab1WebApplication\NewHolovataLab1WebApplication\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Work\k26\ІСтТП\lab1\NewHolovataLab1WebApplication\NewHolovataLab1WebApplication
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Colors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sb3JzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Colors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sb3JzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Colors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sb3JzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Colors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sb3JzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Colors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sb3JzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/OrderedProducts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJlZFByb2R1Y3RzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/OrderedProducts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJlZFByb2R1Y3RzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/OrderedProducts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJlZFByb2R1Y3RzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/OrderedProducts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJlZFByb2R1Y3RzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/OrderedProducts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJlZFByb2R1Y3RzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Orders/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Orders/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Orders/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Orders/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Orders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/ProductsColors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNDb2xvcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/ProductsColors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNDb2xvcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/ProductsColors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNDb2xvcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/ProductsColors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNDb2xvcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/ProductsColors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNDb2xvcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Products/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Products/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/ProductTypes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFR5cGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/ProductTypes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFR5cGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/ProductTypes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFR5cGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/ProductTypes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFR5cGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/ProductTypes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFR5cGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Shops/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Shops/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Shops/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Shops/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Shops/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Users/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Users/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-nk0hbr9kr9
