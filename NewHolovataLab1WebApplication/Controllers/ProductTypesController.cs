@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ClosedXML.Excel;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -159,5 +160,43 @@ namespace NewHolovataLab1WebApplication.Controllers
         {
           return (_context.ProductTypes?.Any(e => e.Id == id)).GetValueOrDefault();
         }
+
+
+        public ActionResult Export()
+        {
+            using (XLWorkbook workbook = new XLWorkbook(/*XLEventTracking.Disabled*/))
+            {
+                var types = _context.ProductTypes.Include("Products").ToList();
+                //тут, для прикладу ми пишемо усі книжки з БД, в своїх проєктах ТАК НЕ РОБИТИ (писати лише вибрані)
+                foreach (var t in types)
+                {
+                    var worksheet = workbook.Worksheets.Add(t.Name);
+                    worksheet.Cell("A1").Value = "Назва";
+                    worksheet.Cell("B1").Value = "Ціна";
+                    worksheet.Cell("C1").Value = "Тип";
+                    worksheet.Row(1).Style.Font.Bold = true;
+                    var products = t.Products.ToList();
+                    //нумерація рядків/стовпчиків починається з індекса 1 (не 0)
+                    for (int i = 0; i < products.Count; i++)
+                    {
+                        worksheet.Cell(i + 2, 1).Value = products[i].Name;
+                        worksheet.Cell(i + 2, 2).Value = products[i].Price;
+                        worksheet.Cell(i + 2, 3).Value = t.Name;
+                    }
+                }
+                using (var stream = new MemoryStream())
+                {
+                    workbook.SaveAs(stream);
+                    stream.Flush();
+                    return new FileContentResult(stream.ToArray(),
+                    "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
+                    {
+                        //змініть назву файла відповідно до тематики Вашого проєкту
+                        FileDownloadName = $"SHOPProducts_{DateTime.UtcNow.ToShortDateString()}.xlsx"
+                    };
+                }
+            }
+        }
+
     }
 }

@@ -9,7 +9,28 @@
 <p>
     <a asp-action="Create">Додати новий магазин</a>
 </p>
-<table class="table">
+
+<div style="margin-top:50px;">
+<h5>Оберіть Excel-файл для завантаження</h5>
+@using (Html.BeginForm("Import", "Shops", FormMethod.Post, new { enctype = "multipart/form-data", id = "frm-excel"}))
+{
+<div>
+Завантажте Excel-файл:
+            <input type="file" name="fileExcel" id="fileExcel" />
+<div>
+                <input type="submit" value="Завантажити" />
+</div>
+</div>
+}
+</div>
+
+<div style="margin-top:50px;">
+    <h5>Завантаження інформації у файл</h5>
+    <a asp-action="Export">Завантажити</a>
+</div>
+
+
+<table class="table" style="margin-top:50px;">
     <thead>
         <tr>
             <th>

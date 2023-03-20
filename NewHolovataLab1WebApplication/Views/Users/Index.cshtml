@@ -51,3 +51,29 @@
 }
     </tbody>
 </table>
+
+<div class="container">
+    <div id="chart2"></div>
+</div>
+@section scripts{
+    <script type "text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script>
+        google.charts.load('current', { 'packages': ['line'] });
+        google.charts.setOnLoadCallback(drawChart);
+
+        function drawChart() {
+
+            $.get('/api/Chart/JsonData1', function (JsonData1) {
+                data = google.visualization.arrayToDataTable(JsonData1, false);
+                var options = {
+                    title: "Замовлення за датою",
+                    width: 1200,
+                    height: 400
+                };
+                var chart = new google.charts.Line(document.getElementById('chart2'));
+
+                chart.draw(data, google.charts.Line.convertOptions(options));
+            })
+        }
+    </script>
+}

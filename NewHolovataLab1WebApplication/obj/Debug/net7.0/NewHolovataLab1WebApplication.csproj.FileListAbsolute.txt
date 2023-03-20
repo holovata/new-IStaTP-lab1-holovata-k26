@@ -572,3 +572,10 @@ C:\Work\k26\ІСтТП\lab1\NewHolovataLab1WebApplication\NewHolovataLab1WebAppl
 C:\Work\k26\ІСтТП\lab1\NewHolovataLab1WebApplication\NewHolovataLab1WebApplication\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Work\k26\ІСтТП\lab1\NewHolovataLab1WebApplication\NewHolovataLab1WebApplication\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Work\k26\ІСтТП\lab1\NewHolovataLab1WebApplication\NewHolovataLab1WebApplication\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Work\k26\ІСтТП\lab1\NewHolovataLab1WebApplication\NewHolovataLab1WebApplication\bin\Debug\net7.0\ClosedXML.dll
+C:\Work\k26\ІСтТП\lab1\NewHolovataLab1WebApplication\NewHolovataLab1WebApplication\bin\Debug\net7.0\DocumentFormat.OpenXml.dll
+C:\Work\k26\ІСтТП\lab1\NewHolovataLab1WebApplication\NewHolovataLab1WebApplication\bin\Debug\net7.0\ExcelNumberFormat.dll
+C:\Work\k26\ІСтТП\lab1\NewHolovataLab1WebApplication\NewHolovataLab1WebApplication\bin\Debug\net7.0\Irony.dll
+C:\Work\k26\ІСтТП\lab1\NewHolovataLab1WebApplication\NewHolovataLab1WebApplication\bin\Debug\net7.0\SixLabors.Fonts.dll
+C:\Work\k26\ІСтТП\lab1\NewHolovataLab1WebApplication\NewHolovataLab1WebApplication\bin\Debug\net7.0\System.IO.Packaging.dll
+C:\Work\k26\ІСтТП\lab1\NewHolovataLab1WebApplication\NewHolovataLab1WebApplication\bin\Debug\net7.0\XLParser.dll

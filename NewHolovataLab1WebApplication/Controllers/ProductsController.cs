@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ClosedXML.Excel;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.CodeAnalysis;
 using Microsoft.EntityFrameworkCore;
 using NewHolovataLab1WebApplication.Models;
+using static System.Reflection.Metadata.BlobBuilder;
 
 namespace NewHolovataLab1WebApplication.Controllers
 {
@@ -185,5 +187,9 @@ namespace NewHolovataLab1WebApplication.Controllers
         {
           return (_context.Products?.Any(e => e.Id == id)).GetValueOrDefault();
         }
+
+        
+
+
     }
 }

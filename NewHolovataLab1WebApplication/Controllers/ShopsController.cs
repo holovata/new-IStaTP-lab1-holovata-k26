@@ -2,10 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ClosedXML.Excel;
+using DocumentFormat.OpenXml.Spreadsheet;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using NewHolovataLab1WebApplication.Models;
+using ClosedXML.Excel;
+using static System.Reflection.Metadata.BlobBuilder;
 
 namespace NewHolovataLab1WebApplication.Controllers
 {
@@ -156,5 +160,71 @@ namespace NewHolovataLab1WebApplication.Controllers
         {
           return _context.Shops.Any(e => e.Id == id);
         }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Import(IFormFile fileExcel)
+        {
+            if (ModelState.IsValid)
+            {
+                if (fileExcel != null)
+                {
+                    using (var stream = new FileStream(fileExcel.FileName, FileMode.Create))
+                    {
+                        await fileExcel.CopyToAsync(stream);
+                        using (XLWorkbook workBook = new XLWorkbook(stream/*, XLEventTracking.Disabled*/))
+                        {
+                            foreach (IXLWorksheet worksheet in workBook.Worksheets)
+                            {
+                                foreach (IXLRow row in worksheet.RowsUsed().Skip(1))
+                                {
+                                    try
+                                    {
+                                        Shop shop = new Shop();
+                                        shop.Address = row.Cell(1).Value.ToString();
+                                        _context.Shops.Add(shop);
+                                    }
+                                    catch (Exception e)
+                                    {
+                                        //logging самостійно :)
+                                        //ага 
+                                    }
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+        public ActionResult Export()
+        {
+            using (XLWorkbook workbook = new XLWorkbook(/*XLEventTracking.Disabled*/))
+            {
+                var shops = _context.Shops.ToList();
+                //тут, для прикладу ми пишемо усі книжки з БД, в своїх проєктах ТАК НЕ РОБИТИ (писати лише вибрані)
+                var worksheet = workbook.Worksheets.Add("Shops List");
+                worksheet.Cell("A1").Value = "Адреса";
+                worksheet.Row(1).Style.Font.Bold = true;
+                for (int i = 0; i < shops.Count; i++)
+                    {
+                        worksheet.Cell(i + 2, 1).Value = shops[i].Address;
+                    }
+                using (var stream = new MemoryStream())
+                {
+                    workbook.SaveAs(stream);
+                    stream.Flush();
+                    return new FileContentResult(stream.ToArray(),
+                    "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
+                    {
+                        //змініть назву файла відповідно до тематики Вашого проєкту
+                        FileDownloadName = $"SHOPShops_{ DateTime.UtcNow.ToShortDateString()}.xlsx"};
+                }
+            }
+        }
+   
     }
 }

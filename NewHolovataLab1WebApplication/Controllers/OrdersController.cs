@@ -60,7 +60,7 @@ namespace NewHolovataLab1WebApplication.Controllers
         // GET: Orders/Create
         public IActionResult Create(int userId)
         {
-            //ViewData["ShopId"] = new SelectList(_context.Shops, "Id", "Id");
+            ViewData["ShopId"] = new SelectList(_context.Shops, "Id", "Id");
             //ViewData["UserId"] = new SelectList(_context.Users, "Id", "Id");
             //return View();
             ViewBag.UserId = userId;
