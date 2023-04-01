@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Identity;
 
 namespace NewHolovataLab1WebApplication.Models;
 
-public partial class User
+public partial class User : IdentityUser
 {
     public int Id { get; set; }
 

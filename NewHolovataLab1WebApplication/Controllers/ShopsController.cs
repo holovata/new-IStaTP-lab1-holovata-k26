@@ -10,9 +10,11 @@ using Microsoft.EntityFrameworkCore;
 using NewHolovataLab1WebApplication.Models;
 using ClosedXML.Excel;
 using static System.Reflection.Metadata.BlobBuilder;
+using Microsoft.AspNetCore.Authorization;
 
 namespace NewHolovataLab1WebApplication.Controllers
 {
+    [Authorize(Roles = "admin, user")]
     public class ShopsController : Controller
     {
         private readonly DblibraryLab1Context _context;

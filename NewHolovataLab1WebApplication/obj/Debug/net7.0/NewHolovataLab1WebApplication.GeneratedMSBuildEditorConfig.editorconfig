@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Work\k26\ІСтТП\lab1\NewHolovataLab1WebApplication\NewHolovataLab1WebApplication
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Colors/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sb3JzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -142,6 +150,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/ProductTypes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFR5cGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Roles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Roles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Roles/UserList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcVXNlckxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Work/k26/ІСтТП/lab1/NewHolovataLab1WebApplication/NewHolovataLab1WebApplication/Views/Shared/Error.cshtml]
