@@ -1,12 +1,12 @@
 ﻿@model NewHolovataLab1WebApplication.Models.OrderedProduct
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Додавання_запис_про_деталі_замовлення";
 }
 
-<h1>Create</h1>
+<h1>Додавання</h1>
 
-<h4>OrderedProduct</h4>
+<h4>Деталі замовлення</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -30,14 +30,14 @@
                 <select asp-for="ColorId" class ="form-control" asp-items="ViewBag.ColorId"></select>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Додати" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Назад до списку</a>
 </div>
 
 @section Scripts {

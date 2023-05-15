@@ -43,7 +43,6 @@ namespace NewHolovataLab1WebApplication.Controllers
             }
 
             return RedirectToAction("Index", "Products", new { id = productType.Id, name = productType.Name });
-            //return View(productType);
         }
 
         // GET: ProductTypes/Create

@@ -7,11 +7,11 @@ namespace NewHolovataLab1WebApplication.Models;
 
 public partial class User : IdentityUser
 {
-    public int Id { get; set; }
+    //public int Id { get; set; }
 
-    [Display(Name = "Email")]
-    [Required(ErrorMessage = "Поле не повинно бути пустим!")]
-    public string Email { get; set; }
+    //[Display(Name = "Email")]
+    //[Required(ErrorMessage = "Поле не повинно бути пустим!")]
+    //public string Email { get; set; }
 
     [Display(Name = "Ім'я")]
     [Required(ErrorMessage = "Поле не повинно бути пустим!")]

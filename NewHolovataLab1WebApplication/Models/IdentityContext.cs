@@ -1,13 +1,13 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore;
+﻿//using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+//using Microsoft.EntityFrameworkCore;
 
-namespace NewHolovataLab1WebApplication.Models
-{
-    public class IdentityContext : IdentityDbContext<User>
-    {
-        public IdentityContext(DbContextOptions<IdentityContext> options) : base(options)
-        { 
-            Database.EnsureCreated();
-        }
-    }
-}
+//namespace NewHolovataLab1WebApplication.Models
+//{
+//    public class IdentityContext : IdentityDbContext<User>
+//    {
+//        public IdentityContext(DbContextOptions<IdentityContext> options) : base(options)
+//        { 
+//            Database.EnsureCreated();
+//        }
+//    }
+//}

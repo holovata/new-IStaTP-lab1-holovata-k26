@@ -28,7 +28,7 @@ namespace NewHolovataLab1WebApplication.Controllers
             {
                 User user = new User { Email = model.Email, UserName = model.Email, Name = model.Name, LastName = model.LastName, Address = model.Address };//proverit`
                 var result = await _userManager.CreateAsync(user, model.Password);
-                if(result.Succeeded)
+                if (result.Succeeded)
                 {
                     //kuki
                     await _signInManager.SignInAsync(user, false);
@@ -36,7 +36,7 @@ namespace NewHolovataLab1WebApplication.Controllers
                 }
                 else
                 {
-                    foreach(var error in result.Errors)
+                    foreach (var error in result.Errors)
                         ModelState.AddModelError(string.Empty, error.Description);
                 }
             }

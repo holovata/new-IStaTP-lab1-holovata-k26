@@ -14,10 +14,10 @@ builder.Services.AddDbContext<DblibraryLab1Context>(option => option.UseSqlServe
     builder.Configuration.GetConnectionString("DefaultConnection")
 ));
 
-builder.Services.AddDbContext<IdentityContext>(option => option.UseSqlServer(
-    builder.Configuration.GetConnectionString("IdentityConnection")));
-builder.Services.AddControllersWithViews();
-builder.Services.AddIdentity<User, IdentityRole>().AddEntityFrameworkStores<IdentityContext>();
+//builder.Services.AddDbContext<IdentityContext>(option => option.UseSqlServer(
+//    builder.Configuration.GetConnectionString("IdentityConnection")));
+//builder.Services.AddControllersWithViews();
+//builder.Services.AddIdentity<User, IdentityRole>().AddEntityFrameworkStores<IdentityContext>();
 
 var app = builder.Build();
 
@@ -26,9 +26,9 @@ using (var scope = app.Services.CreateScope())
     var services = scope.ServiceProvider;
     try
     {
-        var userManager = services.GetRequiredService<UserManager<User>>();
-        var rolesManager = services.GetRequiredService<RoleManager<IdentityRole>>();
-        await RoleInitializer.InitializeAsync(userManager, rolesManager);
+        //var userManager = services.GetRequiredService<UserManager<User>>();
+        //var rolesManager = services.GetRequiredService<RoleManager<IdentityRole>>();
+        //await RoleInitializer.InitializeAsync(userManager, rolesManager);
     }
     catch (Exception ex)
     {

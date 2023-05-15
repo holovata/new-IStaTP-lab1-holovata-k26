@@ -18,9 +18,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.Color)
             </th>
-            <th>
+            @*<th>
                 @Html.DisplayNameFor(model => model.Availability)
-            </th>
+            </th>*@
             <th></th>
         </tr>
     </thead>
@@ -33,9 +33,9 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Color.Id)
             </td>
-            <td>
+            @*<td>
                 @Html.DisplayFor(modelItem => item.Availability)
-            </td>
+            </td>*@
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Редагувати</a> |
                 <a asp-action="Details" asp-route-id="@item.Id">Деталі</a> |

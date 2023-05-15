@@ -24,7 +24,7 @@ public partial class OrderedProduct
     [Required(ErrorMessage = "Поле не повинно бути пустим!")]
     public int ColorId { get; set; }
 
-    [Display(Name = "Кількість")]
+    [Display(Name = "Колір")]
     public virtual Color Color { get; set; }
 
     [Display(Name = "Замовлення")]

@@ -1,12 +1,12 @@
 ﻿@model NewHolovataLab1WebApplication.Models.Product
 
 @{
-    ViewData["Title"] = "Додавання продукту";
+    ViewData["Title"] = "Додавання_товару";
 }
 
-<h1>Додавання продукту до типу @ViewBag.TypeName</h1>
+<h1>Додавання товару до типу @ViewBag.TypeName</h1>
 
-<h4>Product</h4>
+<h4>Товар</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -30,14 +30,14 @@
             <input type="hidden" value="@ViewBag.TypeId" name="TypeId" />
 
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Додати" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Назад до списку</a>
 </div>
 
 @section Scripts {

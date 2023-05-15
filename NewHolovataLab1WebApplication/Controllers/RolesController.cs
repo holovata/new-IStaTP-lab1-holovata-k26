@@ -16,10 +16,10 @@ namespace NewHolovataLab1WebApplication.Controllers
         }
         public IActionResult Index() => View(_roleManager.Roles.ToList());
         public IActionResult UserList() => View(_userManager.Users.ToList());
-        public async Task<IActionResult> Edit(int userId)
+        public async Task<IActionResult> Edit(string userId)
         {
             // отримуємо користувача
-            User user = await _userManager.FindByIdAsync(Convert.ToString(userId));
+            User user = await _userManager.FindByIdAsync(userId);
             if (user != null)
             {
                 //список ролей користувача
@@ -37,10 +37,10 @@ namespace NewHolovataLab1WebApplication.Controllers
             return NotFound();
         }
         [HttpPost]
-        public async Task<IActionResult> Edit(int userId, List<string> roles)
+        public async Task<IActionResult> Edit(string userId, List<string> roles)
         {
             // отримуємо користувача
-            User user = await _userManager.FindByIdAsync(Convert.ToString(userId));
+            User user = await _userManager.FindByIdAsync(userId);
             if (user != null)
             {
                 // список ролей користувача

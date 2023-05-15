@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using ClosedXML.Excel;
 using DocumentFormat.OpenXml.Spreadsheet;
+using DocumentFormat.OpenXml.Packaging;
+using DocumentFormat.OpenXml.Wordprocessing;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -11,10 +13,14 @@ using NewHolovataLab1WebApplication.Models;
 using ClosedXML.Excel;
 using static System.Reflection.Metadata.BlobBuilder;
 using Microsoft.AspNetCore.Authorization;
+using DocumentFormat.OpenXml;
+using Text = DocumentFormat.OpenXml.Wordprocessing.Text;
+using Run = DocumentFormat.OpenXml.Wordprocessing.Run;
+using System.Text;
 
 namespace NewHolovataLab1WebApplication.Controllers
 {
-    [Authorize(Roles = "admin, user")]
+    
     public class ShopsController : Controller
     {
         private readonly DblibraryLab1Context _context;
@@ -227,6 +233,26 @@ namespace NewHolovataLab1WebApplication.Controllers
                 }
             }
         }
-   
+
+        public FileResult ExportDoc()
+        {
+            var shops = _context.Shops.ToList();
+            string[] columnNames = new string[] { "Id", "Address" };
+
+            string word = string.Empty;
+
+            foreach(string columnName in columnNames)
+                word = word + columnName + ',';
+            word = word + "\r\n";
+            foreach (var shop in shops)
+            {
+                word += shop.Id.ToString().Replace(",", ";") + ',';
+                word += shop.Address.Replace(",", ";") + ',';
+                word = word + "\r\n";
+            }
+            byte[] bytes=Encoding.UTF8.GetBytes(word);
+            return File(bytes, "application/vnd.ms-word", "SHOPShops.doc");
+        }
+
     }
 }
